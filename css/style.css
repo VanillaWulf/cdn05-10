@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/lato-bold.woff2') format("woff2"),
+        url('../fonts/lato-bold.woff') format("woff");
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/lato-regular.woff2') format("woff2"),
+        url('../fonts/lato-regular.woff') format("woff");
+}
+
+body {
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+p {
+    font-style: normal;
+    font-weight: 700;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.btn-pink {
+    background-color: deeppink;
+    border-color: deeppink;
+}
+
+.btn-pink:hover {
+    color: #fff;
+    background-color: rgb(163, 13, 93);
+    border-color: rgb(163, 13, 93);
+}
+
+.box {
+    border: 2px solid;
+}
+
+span::before {
+    content:'\2603'
+}
